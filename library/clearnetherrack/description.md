@@ -1,0 +1,1 @@
+Periodically kills all Netherrack items on the ground in the Nether. Helps substantially with TPS when Netherite mining, something I had run into myself.

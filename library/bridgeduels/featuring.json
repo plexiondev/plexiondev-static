@@ -1,0 +1,214 @@
+{
+    "name": "libraryv2",
+    "version": "2022.0620",
+    "prefix": "bridge",
+    "type": "datapack",
+    "info": {
+        "main": [
+            {
+                "type": "teams",
+                "value": "2"
+            },
+            {
+                "type": "version",
+                "value": "1.18"
+            },
+            {
+                "type": "released",
+                "value": "2022-04-02"
+            }
+        ],
+        "links": [
+            {
+                "type": "github",
+                "link": "bridge-duels"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "repeat",
+            "id": "continous-gameplay",
+            "name": "Continous gameplay",
+            "description": "Never lets the game get boring with constant achievements running."
+        },
+        {
+            "icon": "thumbs-up",
+            "id": "custom-selection",
+            "name": "Handpicked selection",
+            "description": "A set achievement list has been chosen based on testing."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak the intervals, grace period and more without issue."
+        },
+        {
+            "icon": "message-square",
+            "id": "minimal-layout",
+            "name": "Minimal layout",
+            "description": "Any game status updates are contained in the chat to ensure the screen has minimal interruptions."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "iehK9KKdcCY",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "The starting grace period"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "New achievement: Glow and Behold!"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "New achievement: This Boat Has Legs"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "New achievement: Take Aim"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "clock",
+                "name": "Interval",
+                "code": "interval",
+                "body": "The interval between achievements.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "810"
+                    }
+                ]
+            },
+            {
+                "icon": "plus-circle",
+                "name": "Score increase",
+                "code": "score_increase",
+                "body": "The amount your score increases by after claiming.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "10"
+                    }
+                ]
+            },
+            {
+                "icon": "award",
+                "name": "Winning score",
+                "code": "win_score",
+                "body": "The score needed to win.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "250"
+                    }
+                ]
+            },
+            {
+                "icon": "info",
+                "name": "Grace period",
+                "code": "grace_period",
+                "body": "Controls the length of the grace period.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "300"
+                    }
+                ]
+            }
+        ]
+    ]
+}

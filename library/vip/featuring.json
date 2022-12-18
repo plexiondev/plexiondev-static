@@ -1,0 +1,214 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "vip",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Protect the VIP",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": "2/3/4"
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-01-03"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/protect-the-vip"
+            },
+            {
+                "type": "github",
+                "link": "vip"
+            },
+            {
+                "type": "issues",
+                "link": "issues@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "VIP.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "filter",
+            "id": "structured-game",
+            "name": "Structured game",
+            "description": "The game is structured into 2 segments; the starting (grace) and main period."
+        },
+        {
+            "icon": "minus-circle",
+            "id": "bossbar-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "Game updates are contained in a single bossbar for minimal interruptions."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak all parts of the datapack via the global scoreboard."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "iAhV4wmHY0o",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "video",
+            "link": "7iunleurrQU",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Your team's VIP is chosen after 15 minutes"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Upon dying, you will respawn"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Sample screenshot of red winning"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "users",
+                "name": "Team count",
+                "code": "team_count",
+                "body": "Specify the amount of teams in-game.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "2"
+                    },
+                    {
+                        "value": "3"
+                    },
+                    {
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "icon": "x-circle",
+                "name": "Death time",
+                "code": "death_time",
+                "body": "Control the respawn timeout.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "25"
+                    }
+                ]
+            },
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

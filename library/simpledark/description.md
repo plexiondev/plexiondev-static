@@ -1,0 +1,3 @@
+Simple Dark is the successor to my previous dark-themed resource pack, Metro Dark Theme. This pack is built from the ground up with a sleek and modern design whilst keeping the dark aesthetic. Every GUI in the base game is themed along with most of the Realms GUIs making the experience seamless.
+
+There is also support for a few Forge/Fabric mods now, which fit in with the Simple Dark theme. Leave any mod requests on the PMC or Github pages.

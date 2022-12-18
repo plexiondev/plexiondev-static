@@ -1,0 +1,223 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "prefix": "survivalgames",
+    "type": "datapack",
+    "info": {
+        "overview": {
+            "name": "Survival Games"
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.14-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2021-12-20"
+            }
+        ],
+        "links": [
+            {
+                "type": "github",
+                "link": "survival-games"
+            },
+            {
+                "type": "issues",
+                "link": "survivalgames@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Survival-Games.zip"
+            },
+            {
+                "type": "custom",
+                "link": "https://gsot.plexion.dev/library/survivalgamesmap",
+                "alt_text": "Supported map"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            },
+            {
+                "type": "help_from",
+                "link": "https://www.youtube.com/channel/UCeIbTUGPw0gnt_ir-NepNvA",
+                "name": "Troned",
+                "icon": "645e96eb-4758-40ef-b597-7ef29c67c037?overlay",
+                "icon_type": "crafatar"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "sliders",
+            "id": "simple-init",
+            "name": "Simple initialisation",
+            "description": "Run <code>function sg:summon/items</code> to get all the spawn eggs required."
+        },
+        {
+            "icon": "archive",
+            "id": "chest-loot",
+            "name": "Chest loot",
+            "description": "Use the loot rarity eggs to set each chest's loot table on your map."
+        },
+        {
+            "icon": "package",
+            "id": "supply-drops",
+            "name": "Supply drops",
+            "description": "Use the supply drop egg to set potential locations for supply drops."
+        },
+        {
+            "icon": "user",
+            "id": "spawn-pods",
+            "name": "Spawn pods",
+            "description": "Use the spawn pod egg to set where players will spawn at the beginning of the game."
+        },
+        {
+            "icon": "box-select",
+            "id": "world-border",
+            "name": "World border",
+            "description": "Use the world border egg to set potential locations for the world border's centre point."
+        },
+        {
+            "icon": "copy",
+            "id": "clone-blocks",
+            "name": "Clone blocks",
+            "description": "Use the copy block egg to mark blocks to be cloned (reset, like trapdoors) upon a game reset."
+        },
+        {
+            "icon": "alert-circle",
+            "id": "debugging",
+            "name": "Debugging",
+            "description": "Enable debug mode to view all placed egg locations (eg. chests, supply drops etc.)"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "Utcq254YaPo",
+            "src": "youtube",
+            "caption": "Trailer from GSOT"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "package",
+                "name": "Supply drop 1",
+                "code": "supply_drop_1",
+                "body": "Specify when the first supply crate drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "120"
+                    }
+                ]
+            },
+            {
+                "icon": "package",
+                "name": "Supply drop 2",
+                "code": "supply_drop_2",
+                "body": "Specify when the second supply crate drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "180"
+                    }
+                ]
+            },
+            {
+                "icon": "package",
+                "name": "Supply drop 3",
+                "code": "supply_drop_3",
+                "body": "Specify when the third supply crate drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "240"
+                    }
+                ]
+            },
+            {
+                "icon": "box-select",
+                "name": "Border move 1",
+                "code": "border_move_1",
+                "body": "Specify when the border will close in.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "120"
+                    }
+                ]
+            },
+            {
+                "icon": "box-select",
+                "name": "Border move 2",
+                "code": "border_move_2",
+                "body": "Specify when the border will close in.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "260"
+                    }
+                ]
+            },
+            {
+                "icon": "alert-circle",
+                "name": "Debugging",
+                "code": "debug (internal)",
+                "body": "View all placed eggs with particles.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

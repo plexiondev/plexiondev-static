@@ -1,0 +1,109 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "prefix": "potato",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Capture the Helmet"
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.16"
+            },
+            {
+                "type": "released",
+                "value": "2021-01-23"
+            }
+        ],
+        "links": [
+            {
+                "type": "github",
+                "link": "capture-the-helmet"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Capture.the.Helmet.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://www.youtube.com/channel/UCeIbTUGPw0gnt_ir-NepNvA",
+                "name": "Troned",
+                "icon": "645e96eb-4758-40ef-b597-7ef29c67c037?overlay",
+                "icon_type": "crafatar"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "repeat",
+            "id": "continous-gameplay",
+            "name": "Continous gameplay",
+            "description": "It's impossible to be eliminated, just have fun with the constant gameplay."
+        },
+        {
+            "icon": "minus-circle",
+            "id": "score-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "Your score is shown on your actionbar, with the leaderboard on the right of the screen."
+        },
+        {
+            "icon": "filter",
+            "id": "structured-game",
+            "name": "Structured game",
+            "description": "A preparation phase is started before a random person is chosen to have the helmet."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "KE80kjUe8Kg",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Pre-game preparation"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "A random person gaining the helmet"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Sample fight"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "Come up with unique ways to escape"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "Pure chaos"
+        },
+        {
+            "type": "image",
+            "link": "gal5.png",
+            "caption": "Experience intense fights to keep the helmet"
+        }
+    ]
+}

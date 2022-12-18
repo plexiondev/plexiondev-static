@@ -1,0 +1,464 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "test",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Test!",
+            "credit_notice": true,
+            "is_legacy": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.999"
+            },
+            {
+                "type": "released",
+                "value": "2022-03-24"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "member/plexiondev"
+            },
+            {
+                "type": "github",
+                "link": "test"
+            },
+            {
+                "type": "modrinth",
+                "link": "mod/fabric-api"
+            },
+            {
+                "type": "issues",
+                "link": "hello@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "test.zip"
+            },
+            {
+                "type": "download",
+                "link": "test2.zip",
+                "alt_text": " test2"
+            },
+            {
+                "type": "custom",
+                "link": "https://osu.ppy.sh/u/plexion",
+                "alt_text": "external test"
+            },
+            {
+                "type": "js-action",
+                "link": "stat_change('downloads',500)",
+                "alt_text": "simulate +500 stat change"
+            },
+            {
+                "type": "js-action",
+                "link": "stat_change('follows',500)",
+                "alt_text": "simulate +500 stat change"
+            },
+            {
+                "type": "js-action",
+                "link": "stat_change('test',50000)",
+                "alt_text": "simulate +50000 stat change"
+            },
+            {
+                "type": "js-action",
+                "link": "localStorage.setItem('test_total_downloads','50')",
+                "alt_text": "reset stat"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main",
+                "hint": "something something . . ."
+            },
+            {
+                "type": "code_from",
+                "link": "https://github.com/troned",
+                "name": "Troned",
+                "icon": "645e96eb-4758-40ef-b597-7ef29c67c037?overlay",
+                "icon_type": "crafatar",
+                "hint": "Did a lot of things"
+            },
+            {
+                "type": "ideas_from",
+                "link": "https://osu.ppy.sh/u/equton",
+                "name": "Equton",
+                "icon": "024ee461-b1c3-4103-885f-353a57d624b4?overlay",
+                "icon_type": "crafatar",
+                "hint": "Developed things i think?"
+            },
+            {
+                "type": "help_from",
+                "link": "https://youtube.com/channel/UCOi68D-v6sbdkBoq1WIvo0Q",
+                "name": "DR_Nolife",
+                "icon": "e2871776-aeaa-4d2e-b211-a5cfa1002cb9?overlay",
+                "icon_type": "crafatar",
+                "hint": "Developed literally 65.2466% of the datapack's core!!"
+            }
+        ],
+        "mods": [
+            {
+                "type": "required",
+                "link": "https://modrinth.com/mod/fabric-api",
+                "name": "Fabric API",
+                "icon": "https://cdn.modrinth.com/data/P7dR8mSH/icon.png",
+                "icon_type": "web"
+            },
+            {
+                "type": "optional",
+                "link": "https://modrinth.com/mod/phosphor",
+                "name": "Phosphor",
+                "icon": "https://cdn.modrinth.com/data/hEOCdOgW/icon.png",
+                "icon_type": "web"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "git-branch",
+            "name": "Sample 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "git-commit",
+            "name": "Sample 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "git-merge",
+            "name": "Sample 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "git-pull-request",
+            "name": "Sample 4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "eye",
+            "name": "Sample 5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "eye-off",
+            "name": "Sample 6",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "iehK9KKdcCY",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "undefined"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "random image to test scroll"
+        }
+    ],
+    "spotlight": [
+        {
+            "type": "video",
+            "link": "8Rccf1R4omQ",
+            "src": "youtube",
+            "details": {
+                "name": "plexion",
+                "date": "2022-10-09"
+            }
+        },
+        {
+            "type": "video",
+            "link": "iehK9KKdcCY",
+            "src": "youtube",
+            "details": {
+                "name": "plexion",
+                "date": "2022-03-19"
+            }
+        }
+    ],
+    "recipes": [
+        {
+            "result": "music_disc_stal",
+            "name": "Stal",
+            "description": "Sample item.",
+            "recipe": [
+                { "item": "" },
+                { "item": "ink_sac" },
+                { "item": "" },
+                { "item": "ink_sac" },
+                { "item": "gold_block" },
+                { "item": "ink_sac" },
+                { "item": "" },
+                { "item": "ink_sac" },
+                { "item": "" }
+            ]
+        },
+        {
+            "result": "stick",
+            "name": "Absolutely nothing",
+            "description": "Empty crafting recipe.",
+            "recipe": [
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" }
+            ]
+        },
+        {
+            "result": "structure_void",
+            "name": "A lot of barriers",
+            "description": "Full crafting recipe.",
+            "recipe": [
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" },
+                { "item": "barrier" }
+            ]
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "clock",
+                "name": "Swap intervals",
+                "code": "interval",
+                "body": "The initial interval between swaps.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "300"
+                    }
+                ]
+            },
+            {
+                "icon": "arrow-down-circle",
+                "name": "Interval lowering",
+                "code": "interval_lower",
+                "body": "The amount the interval decreases every swap.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "20"
+                    }
+                ]
+            },
+            {
+                "icon": "alert-triangle",
+                "name": "Interval warning",
+                "code": "interval_warn",
+                "body": "The initial warning before swapping.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "240"
+                    }
+                ]
+            },
+            {
+                "icon": "info",
+                "name": "Grace period",
+                "code": "grace_period",
+                "body": "Controls the length of the grace period.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "300"
+                    }
+                ]
+            },
+            {
+                "icon": "heart",
+                "name": "Health boost",
+                "code": "health_boost",
+                "body": "Controls player health boost.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ],
+    "releases": [
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "0.99999",
+            "name": "Very secret release!!!!!",
+            "published_at": "1984-12-25",
+            "body": "https://user-images.githubusercontent.com/46572320/200091306-f679a6a4-1269-4e3b-8412-a88a53dc07e8.mp4\n\n<video src=\"https://user-images.githubusercontent.com/46572320/200091306-f679a6a4-1269-4e3b-8412-a88a53dc07e8.mp4\" controls>"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "0.99999",
+            "name": "Very secret release!!!!!",
+            "published_at": "1984-12-25",
+            "body": "Fixed some **CRUCIAL** bugs, such as\n- this no longer does `that`<p class=\"text-14 addition\">this can, of course, be controlled via contacting the international space station and notifying them of such a cause like this one in the `global` scoreboard</p>\n- <im>tweaked the tweaks to correctly tweak the identifiers!</im><p class=\"text-14 addition\">hooray!</p>"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "0.4",
+            "name": "The very first",
+            "published_at": "1990-01-01",
+            "assets": [
+                {
+                    "name": "lavarising15421.zip",
+                    "browser_download_url": "/downloads/lavarising15421.zip"
+                }
+            ],
+            "body": "This release has downloads, truly insightful."
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "2022.1003",
+            "name": "Testing new changelog styles!",
+            "published_at": "1989-12-25",
+            "body": "Fixed some **CRUCIAL** bugs, such as\n- this no longer does `that`\n  - this can, of course, be controlled via contacting the international space station and notifying them of such a cause like this one in the `global` scoreboard\n- <im>tweaked the tweaks to correctly tweak the identifiers!</im>\n  - hooray!"
+        }
+    ]
+}

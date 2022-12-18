@@ -1,0 +1,387 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "snowrising",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Snow Rising",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": "Solos/2/3"
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-12-03"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/snow-rising"
+            },
+            {
+                "type": "github",
+                "link": "snow-rising"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Snow-Rising.zip"
+            },
+            {
+                "type": "download",
+                "link": "Snow-Rising-RP.zip",
+                "alt_text": " resourcepack"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "clock",
+            "id": "custom-timings",
+            "name": "Customisable timings",
+            "description": "Using scoreboards you can configure event timings to fit your liking."
+        },
+        {
+            "icon": "filter",
+            "id": "structured-game",
+            "name": "Structured game",
+            "description": "The game is structured into 3 segments; the starting, grace, and main period."
+        },
+        {
+            "icon": "users",
+            "id": "simple-teams",
+            "name": "Simple teams",
+            "description": "Easily assign players to 2-3 teams to give the game a competitive edge."
+        },
+        {
+            "icon": "chevrons-up",
+            "id": "height-limit",
+            "name": "Height limiting",
+            "description": "Limits the max height the lava can reach to 245."
+        },
+        {
+            "icon": "minus-circle",
+            "id": "bossbar-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "Game updates are contained in a single bossbar for minimal interruptions."
+        },
+        {
+            "icon": "trending-up",
+            "id": "no-lag",
+            "name": "Handled lag",
+            "description": "In an effort to improve performance, falling blocks are automatically killed."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak all parts of the datapack via the global scoreboard."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Preparing in the grace period"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Candy canes!"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "The snow begins rising!"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "The snow reaching the surface"
+        },
+        {
+            "type": "image",
+            "link": "gal7.png",
+            "caption": "Ice platforms!"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "Solos win!"
+        }
+    ],
+    "recipes": [
+        {
+            "result": "SR-slowball",
+            "name": "Slowball",
+            "description": "Slow down nearby players, also the primary crafting item.",
+            "recipe": []
+        },
+        {
+            "result": "SR-candy_cane",
+            "name": "Candy Cane",
+            "description": "Get in the holiday spirit, grants speed and absorption.",
+            "recipe": []
+        },
+        {
+            "result": "SR-leather_boots",
+            "name": "Ice Skates",
+            "description": "Skate across the rising snow with speed!",
+            "recipe": [
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "leather" },
+                { "item": "" },
+                { "item": "leather" },
+                { "item": "leather" },
+                { "item": "" },
+                { "item": "leather" }
+            ]
+        },
+        {
+            "result": "SR-ice_platform",
+            "name": "Ice Platform",
+            "description": "Create a temporary ice platform below you.",
+            "recipe": [
+                { "item": "snow_block" },
+                { "item": "snow_block" },
+                { "item": "snow_block" },
+                { "item": "snow_block" },
+                { "item": "SR-slowball" },
+                { "item": "snow_block" },
+                { "item": "snow_block" },
+                { "item": "snow_block" },
+                { "item": "snow_block" }
+            ]
+        },
+        {
+            "result": "SR-levitation",
+            "name": "Quick Levitation",
+            "description": "Save yourself from a fall with levitation.",
+            "recipe": [
+                { "item": "gold_ingot" },
+                { "item": "gold_ingot" },
+                { "item": "gold_ingot" },
+                { "item": "gold_ingot" },
+                { "item": "SR-slowball" },
+                { "item": "gold_ingot" },
+                { "item": "gold_ingot" },
+                { "item": "gold_ingot" },
+                { "item": "gold_ingot" }
+            ]
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "users",
+                "name": "Teams",
+                "code": "teams",
+                "body": "Toggle between solos or teams.",
+                "values": [
+                    {
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "default": true,
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "user",
+                "name": "Teams count",
+                "code": "teams_count",
+                "body": "Switch between 2 or 3 teams.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "2"
+                    },
+                    {
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "icon": "chevrons-up",
+                "name": "Rise height limit",
+                "code": "rise_height_limit",
+                "body": "The maximum height limit the lava can reach.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "316"
+                    }
+                ]
+            },
+            {
+                "icon": "clock",
+                "name": "Rise ticks",
+                "code": "rise_ticks",
+                "body": "The interval between the snow rising (in ticks).",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "80"
+                    }
+                ]
+            },
+            {
+                "icon": "clock",
+                "name": "Starter period",
+                "code": "starter_period",
+                "body": "PvP is disabled, starts when the game begins (min. 10s).",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "60"
+                    }
+                ]
+            },
+            {
+                "icon": "clock",
+                "name": "Grace period",
+                "code": "grace_period",
+                "body": "PvP is enabled along with respawning (min 20m).",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "1800"
+                    }
+                ]
+            },
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Automatically smelts ores and cooks food.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Automatically enchants tools with efficiency.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "volume-2",
+                "name": "Sound effects",
+                "code": "sound_effects",
+                "body": "Plays sound effects upon rising.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "flag",
+                "name": "Legacy mode (pre-1.18)",
+                "code": "legacy",
+                "body": "Reverts the height limit and spawn height down to pre-1.18 values.",
+                "values": [
+                    {
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "default": true,
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

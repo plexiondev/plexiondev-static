@@ -1,0 +1,249 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "ds",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Death Swap",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-03-09"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/unlimited-death-swap"
+            },
+            {
+                "type": "github",
+                "link": "death-swap"
+            },
+            {
+                "type": "issues",
+                "link": "deathswap@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Death-Swap.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "repeat",
+            "id": "continous-gameplay",
+            "name": "Continous gameplay",
+            "description": "Never lets the game get boring with a constant timer running for each swap."
+        },
+        {
+            "icon": "clock",
+            "id": "hidden-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "The swap interval timer is hidden until the last minute and 5 seconds."
+        },
+        {
+            "icon": "check-circle",
+            "id": "enforce-creativity",
+            "name": "Enforces creativity",
+            "description": "To prevent the same falling trap everytime, fall damage is disabled."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak the intervals, warning times, bossbar visibility and more without issue."
+        },
+        {
+            "icon": "message-square",
+            "id": "minimal-layout",
+            "name": "Minimal layout",
+            "description": "Any game status updates are contained in the chat to ensure the screen has minimal interruptions."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        },
+        {
+            "icon": "alert-octagon",
+            "id": "logging",
+            "name": "Easy logging",
+            "description": "Experiencing issues? Try toggling the logging mode in the internal settings."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "iehK9KKdcCY",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "clock",
+                "name": "Swap intervals",
+                "code": "interval",
+                "body": "The initial interval between swaps.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "300"
+                    }
+                ]
+            },
+            {
+                "icon": "arrow-down-circle",
+                "name": "Interval lowering",
+                "code": "interval_lower",
+                "body": "The amount the interval decreases every swap.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "20"
+                    }
+                ]
+            },
+            {
+                "icon": "alert-triangle",
+                "name": "Interval warning",
+                "code": "interval_warn",
+                "body": "The initial warning before swapping.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "240"
+                    }
+                ]
+            },
+            {
+                "icon": "info",
+                "name": "Grace period",
+                "code": "grace_period",
+                "body": "Controls the length of the grace period.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "300"
+                    }
+                ]
+            },
+            {
+                "icon": "heart",
+                "name": "Health boost",
+                "code": "health_boost",
+                "body": "Controls player health boost.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

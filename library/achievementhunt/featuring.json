@@ -1,0 +1,309 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "achunt",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Achievement Hunt",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.18-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-04-03"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/achievement-hunt"
+            },
+            {
+                "type": "github",
+                "link": "achievement-hunt"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Achievement-Hunt.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "repeat",
+            "id": "continous-gameplay",
+            "name": "Continous gameplay",
+            "description": "Never lets the game get boring with constant achievements running."
+        },
+        {
+            "icon": "star",
+            "id": "custom-selection",
+            "name": "Handpicked selection",
+            "description": "A set achievement list has been chosen based on testing."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak the intervals, grace period and more without issue."
+        },
+        {
+            "icon": "message-square",
+            "id": "minimal-layout",
+            "name": "Minimal layout",
+            "description": "Information can be displayed in chat, the scoreboard, or actionbar."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "AoivVWpEJ0Y",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "The starting grace period"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "New achievement: Glow and Behold!"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "New achievement: This Boat Has Legs"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "New achievement: Take Aim"
+        }
+    ],
+    "spotlight": [
+        {
+            "type": "video",
+            "link": "DQqUdZZ4WbI",
+            "src": "youtube",
+            "details": {
+                "name": "EllieeBeaar",
+                "date": "2022-09-09"
+            }
+        },
+        {
+            "type": "video",
+            "link": "QwJ3-sff0mc",
+            "src": "youtube",
+            "details": {
+                "name": "ryanjames1011",
+                "date": "2022-12-02"
+            }
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "clock",
+                "name": "Interval",
+                "code": "interval",
+                "body": "The interval between achievements.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "280"
+                    }
+                ]
+            },
+            {
+                "icon": "plus-circle",
+                "name": "Score increase",
+                "code": "score_increase",
+                "body": "The amount your score increases by after claiming.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "10"
+                    }
+                ]
+            },
+            {
+                "icon": "award",
+                "name": "Winning score",
+                "code": "win_score",
+                "body": "The score needed to win.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "100"
+                    }
+                ]
+            },
+            {
+                "icon": "info",
+                "name": "Grace period",
+                "code": "grace_period",
+                "body": "Controls the length of the grace period.",
+                "values": [
+                    {
+                        "default": true,
+                        "time": true,
+                        "value": "300"
+                    }
+                ]
+            },
+            {
+                "icon": "skip-forward",
+                "name": "Skip grace period",
+                "code": "skip_grace",
+                "body": "Skips the grace period and instantly picks an achievement.",
+                "values": [
+                    {
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "default": true,
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "check-circle",
+                "name": "Vote-skip",
+                "code": "vote_skip",
+                "body": "Whether vote-skipping is actively enabled.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "info",
+                "name": "Vote-skip nagging",
+                "code": "nag_vote_skip",
+                "body": "Display a hint tooltip on every achievement.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

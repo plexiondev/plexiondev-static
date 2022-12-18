@@ -1,0 +1,155 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "type": "resourcepack",
+    "info": {
+        "overview": {
+            "name": "Simple Dark"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.19"
+            },
+            {
+                "type": "released",
+                "value": "2021-03-09"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "texture-pack/simple-dark"
+            },
+            {
+                "type": "github",
+                "link": "simple-dark"
+            },
+            {
+                "type": "modrinth",
+                "link": "resourcepack/simpledark"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Simple-Dark.zip"
+            },
+            {
+                "type": "custom",
+                "link": "/library/picker/simpledark",
+                "alt_text": "Customise"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "droplet",
+            "id": "simple-colourset",
+            "name": "Simple colourset",
+            "description": "A simple, but modern colour scheme is used throughout to remain consistent."
+        },
+        {
+            "icon": "moon",
+            "id": "fully-themed",
+            "name": "Themed throughout",
+            "description": "All native Minecraft, Minecraft Realms and additional modded interfaces have been fully themed with the same aesthetic."
+        },
+        {
+            "icon": "wrench",
+            "id": "fabric",
+            "name": "Fabric support",
+            "description": "SlotLock, Capes, ToroHealth Damage Indicators and ModMenu have been themed."
+        },
+        {
+            "icon": "wrench",
+            "id": "forge",
+            "name": "Forge support",
+            "description": "JEI, Tinker's Construct, GalacticCraft and ComputerCraft have been themed."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Simple Dark"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Survival hotbar"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Creative menu"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Enchantment Table"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "Advancements menu"
+        }
+    ],
+    "releases": [
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.1.1",
+            "name": "Version 1.1.1",
+            "published_at": "2021-06-11",
+            "assets": [
+                {
+                    "name": "simpledark11621.zip",
+                    "browser_download_url": "/downloads/simpledark11621.zip"
+                }
+            ],
+            "body": "No changelog was specified, assuming version number."
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.1",
+            "name": "Version 1.1",
+            "published_at": "2021-05-16",
+            "assets": [
+                {
+                    "name": "simple-dark16521.zip",
+                    "browser_download_url": "/downloads/simple-dark16521.zip"
+                }
+            ],
+            "body": "BIG CHANGES & UPDATES:\n- New hotbar style\n- New bossbar style\n- New search icon in recipe book\n- Recipe book now has clearer page turn buttons\n- Recipe 'Showing All/Craftable' is now dynamic\n- Recipes with multiple types now have a + symbol\n- Support for the 'SlotLock' fabric mod\n- Support for the 'Capes' fabric mod\n- *some* Support for the 'ToroHealth Damage Indicators' fabric mod\n- Support for the 'ModMenu' fabric mod\n- New icons for the realm backups screen\n- Connection icons are now themed\n- The bar for horses and the old bossbar is now themed\n- New look for underwater hotbar bubbles"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.0",
+            "name": "Version 1.0",
+            "published_at": "2021-03-09",
+            "assets": [
+                {
+                    "name": "simple-dark9321.zip",
+                    "browser_download_url": "/downloads/simple-dark9321.zip"
+                }
+            ],
+            "body": "Initial release."
+        }
+    ]
+}

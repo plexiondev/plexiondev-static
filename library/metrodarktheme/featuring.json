@@ -1,0 +1,79 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "type": "resourcepack",
+    "info": {
+        "overview": {
+            "name": "Metro Dark Theme"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.16"
+            },
+            {
+                "type": "released",
+                "value": "2019-04-27"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "texture-pack/metro-dark-theme"
+            },
+            {
+                "type": "github",
+                "link": "metro-dark-theme"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Metro.Pitch.Black.zip",
+                "alt_text": " Pitch Black"
+            },
+            {
+                "type": "download",
+                "link": "Metro.Dark.Grey.zip",
+                "alt_text": " Dark Grey"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Survival inventory, themed with Pitch Black"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Enchanting table, themed with Pitch Black"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Gamemode switcher, themed with Pitch Black"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "Furnace, themed with Dark Grey"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "Creative menu, themed with Dark Grey"
+        }
+    ]
+}

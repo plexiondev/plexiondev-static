@@ -1,0 +1,1 @@
+Challenge you and your friends to speedrun Minecraft, who will kill the ender dragon first? Play in solos or up to 4 teams with a range of additions to speed up and improve gameplay.

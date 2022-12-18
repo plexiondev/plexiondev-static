@@ -1,0 +1,135 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "bounty",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Bounty Hunt",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.18"
+            },
+            {
+                "type": "released",
+                "value": "2021-12-25"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/bounty-hunt"
+            },
+            {
+                "type": "github",
+                "link": "bounty-hunt"
+            },
+            {
+                "type": "issues",
+                "link": "bountyhunt@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Bounty-Hunt.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak all parts of the datapack via the global scoreboard."
+        },
+        {
+            "icon": "gift",
+            "id": "streamlined",
+            "name": "Streamlined managing",
+            "description": "All player handling is automatically managed."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Your actionbar will display your target"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Killing your target"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "Killing your assassin"
+        },
+        {
+            "type": "image",
+            "link": "gal5.png",
+            "caption": "Killing randomly"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "Winning scene on the default settings"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "award",
+                "name": "Winning score",
+                "code": "win_score",
+                "body": "Specify the maximum score needed to win",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "8000"
+                    }
+                ]
+            }
+        ]
+    ]
+}

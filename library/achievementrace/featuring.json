@@ -1,0 +1,317 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "acrace",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Achievement Race",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-08-19"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/achievement-race"
+            },
+            {
+                "type": "github",
+                "link": "achievement-race"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Achievement-Race.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "battery-charging",
+            "id": "auto-smelt",
+            "name": "Auto smelt",
+            "description": "Have your ores and food drops automatically smelted for you."
+        },
+        {
+            "icon": "repeat",
+            "id": "continous-gameplay",
+            "name": "Continous gameplay",
+            "description": "Never lets the game get boring with endless achievements available."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Every aspect of Achievment Race can be configured, scroll down to view all the options."
+        },
+        {
+            "icon": "message-square",
+            "id": "minimal-layout",
+            "name": "Minimal layout",
+            "description": "Any game status updates are contained in the chat to ensure the screen has minimal interruptions."
+        },
+        {
+            "icon": "sliders",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "A simple setup will help you configure various options upon adding the datapack."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "8Rccf1R4omQ",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Achievements can be gained the moment you start!"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Each achievement is worth a different amount of points"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "By default, 6 random achievements are 2x multiplied to vary each game"
+        },
+        {
+            "type": "image",
+            "link": "gal5.png",
+            "caption": "Multiplied achievements give double their usual points"
+        },
+        {
+            "type": "image",
+            "link": "gal7.png",
+            "caption": "Do whatever it takes to gain points.."
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "The winner has the most points!"
+        },
+        {
+            "type": "image",
+            "link": "gal6.png",
+            "caption": "An intuitive setup will show on first-run to help you customise the game"
+        }
+    ],
+    "spotlight": [
+        {
+            "type": "video",
+            "link": "MiCiBM03haE",
+            "src": "youtube",
+            "details": {
+                "name": "Apocalypse Burger",
+                "date": "2022-09-03"
+            }
+        },
+        {
+            "type": "video",
+            "link": "Czud7oajt-o",
+            "src": "youtube",
+            "details": {
+                "name": "Bubbo",
+                "date": "2022-10-22"
+            }
+        },
+        {
+            "type": "video",
+            "link": "X-C5TMI1ltw",
+            "src": "youtube",
+            "details": {
+                "name": "Duno",
+                "date": "2022-11-15"
+            }
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "users",
+                "name": "Allow winning draw",
+                "code": "allow_draw",
+                "body": "In the event of more than one winner, end in a draw rather than randomly picking.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "star",
+                "name": "x2 Multiplier",
+                "code": "multiplier",
+                "body": "Doubles the points on 6 random achievements.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "clock",
+                "name": "End time",
+                "code": "end_time",
+                "body": "The time limit of the game, in seconds.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "2700"
+                    }
+                ]
+            },
+            {
+                "icon": "help-circle",
+                "name": "Hide point gain",
+                "code": "hide_point_gain",
+                "body": "Display +?? (instead of eg. +5) upon earning an achievement to other players.",
+                "values": [
+                    {
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "default": true,
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "list-ordered",
+                "name": "Show scoreboard",
+                "code": "show_scoreboard",
+                "body": "Displays the point scoreboard.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "hash",
+                "name": "Show score on actionbar",
+                "code": "show_score_actionbar",
+                "body": "Displays your current points on your actionbar.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Automatically smelts ores and cooks food.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Automatically enchants tools with efficiency.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

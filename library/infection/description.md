@@ -1,0 +1,1 @@
+Gather resources for 8 minutes before one player is randomly infected. Their goal is to kill off and infect all the survivors in the game. If all the survivors are infected before the timer runs out, the infected team will win; otherwise, the survivors will win. Who will come out victorious?

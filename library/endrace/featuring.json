@@ -1,0 +1,257 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "racetotheend",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "End Race",
+            "credit_notice": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": 0
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.18"
+            },
+            {
+                "type": "released",
+                "value": "2021-11-16"
+            }
+        ],
+        "links": [
+            {
+                "type": "github",
+                "link": "end-race"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "End-Race.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "heart",
+            "id": "player-lives",
+            "name": "Player lives",
+            "description": "Players only have 3 lives before spectating."
+        },
+        {
+            "icon": "users",
+            "id": "simple-teams",
+            "name": "Simple teams",
+            "description": "Easily assign players to 2-3 teams to give the game a competitive edge."
+        },
+        {
+            "icon": "minus-circle",
+            "id": "bossbar-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "Game updates are contained in a single bossbar for minimal interruptions."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak the intervals, warning times, bossbar visibility and more without issue."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "uGNJd_jD70g",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "The beginnings of a run"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Grace period ending, enabling PVP"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Killing a golem for iron"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "Arriving in the Nether"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "Killing Blazes for blaze rods"
+        },
+        {
+            "type": "image",
+            "link": "gal5.png",
+            "caption": "Definitely not dying in the process"
+        },
+        {
+            "type": "image",
+            "link": "gal6.png",
+            "caption": "The Stronghold's portal room"
+        },
+        {
+            "type": "image",
+            "link": "gal7.png",
+            "caption": "Bed one-cycle (i'm a god)"
+        },
+        {
+            "type": "image",
+            "link": "gal8.png",
+            "caption": "Killing the dragon and winning the game"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "users",
+                "name": "Teams",
+                "code": "enable_teams",
+                "body": "Toggle between solos or teams.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "user",
+                "name": "Team count",
+                "code": "teams",
+                "body": "Specifies the amount of teams present.",
+                "values": [
+                    {
+                        "default": true,
+                        "value": "2"
+                    },
+                    {
+                        "value": "3"
+                    },
+                    {
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "icon": "user-minus",
+                "name": "Team attacking",
+                "code": "friendly_fire",
+                "body": "Allows players to attack teammates.",
+                "values": [
+                    {
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "default": true,
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}

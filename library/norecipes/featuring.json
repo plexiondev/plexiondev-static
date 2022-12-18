@@ -1,0 +1,62 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "type": "datapack",
+    "info": {
+        "overview": {
+            "name": "No Recipes"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.13-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-07-11"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/no-recipes"
+            },
+            {
+                "type": "github",
+                "link": "no-recipes"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "No-Recipes.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "No crafting recipes"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "No furnace recipes"
+        }
+    ]
+}

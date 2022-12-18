@@ -1,0 +1,62 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "prefix": "currency",
+    "type": "datapack",
+    "info": {
+        "overview": {
+            "name": "Currency"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.13-1.18"
+            },
+            {
+                "type": "released",
+                "value": "2021-12-20"
+            }
+        ],
+        "links": [
+            {
+                "type": "github",
+                "link": "currency"
+            },
+            {
+                "type": "issues",
+                "link": "currency@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Currency.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            },
+            {
+                "type": "help_from",
+                "link": "https://www.youtube.com/channel/UCeIbTUGPw0gnt_ir-NepNvA",
+                "name": "Troned",
+                "icon": "645e96eb-4758-40ef-b597-7ef29c67c037?overlay",
+                "icon_type": "crafatar"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "sliders",
+            "id": "stock-market",
+            "name": "Stock market",
+            "description": "After 3 of each item is sold/bought the value will go down/up by 1% of it's value."
+        }
+    ]
+}

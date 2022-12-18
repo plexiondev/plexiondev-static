@@ -1,0 +1,86 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "type": "resourcepack",
+    "info": {
+        "overview": {
+            "name": "OpenDyslexic Font"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.17-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2021-06-20"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "texture-pack/opendyslexic-font-for-minecraft"
+            },
+            {
+                "type": "github",
+                "link": "opendyslexic-font"
+            },
+            {
+                "type": "modrinth",
+                "link": "resourcepack/opendyslexicfont"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "OpenDyslexic.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "sliders",
+            "id": "fully-compatiable",
+            "name": "Fully compatiable",
+            "description": "By using native minecraft fonts, all interfaces are supported seamlessly."
+        },
+        {
+            "icon": "thumbs-up",
+            "id": "works-like-usual",
+            "name": "Works like usual",
+            "description": "All vanilla minecraft font features are natively supported."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Screenshot of the F3 menu, where the font is most visible"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Creative menu"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Options screen"
+        }
+    ]
+}

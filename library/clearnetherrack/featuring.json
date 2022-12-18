@@ -1,0 +1,58 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "prefix": "clearnetherrack",
+    "type": "datapack",
+    "info": {
+        "overview": {
+            "name": "Clear Netherrack"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.16-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-08-09"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/clear-netherrack"
+            },
+            {
+                "type": "github",
+                "link": "clear-netherrack"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Clear-Netherrack.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Just mining some Netherite"
+        }
+    ]
+}

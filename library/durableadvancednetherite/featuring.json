@@ -1,0 +1,74 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "prefix": "durablean",
+    "type": "datapack",
+    "info": {
+        "overview": {
+            "name": "Durable Advanced Netherite"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-08-07"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/durable-advanced-netherite"
+            },
+            {
+                "type": "github",
+                "link": "durable-advanced-netherite"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Durable-Advanced-Netherite.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ],
+        "mods": [
+            {
+                "type": "required",
+                "link": "https://modrinth.com/mod/netherite-nuggets",
+                "name": "Netherite Nuggets",
+                "icon": "https://cdn.modrinth.com/data/XplBvakg/icon.png",
+                "icon_type": "web"
+            },
+            {
+                "type": "required",
+                "link": "https://modrinth.com/mod/advanced-netherite",
+                "name": "Advanced Netherite",
+                "icon": "https://cdn.modrinth.com/data/CFX9ftUJ/icon.gif",
+                "icon_type": "web"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Healing a Netherite-Iron Pickaxe"
+        }
+    ]
+}

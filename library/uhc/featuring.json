@@ -1,0 +1,319 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "uhc",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "UHC",
+            "credit_notice": true,
+            "is_legacy": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": "Solos/2/3"
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.17"
+            },
+            {
+                "type": "released",
+                "value": "2021-02-14"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/simple-uhc"
+            },
+            {
+                "type": "github",
+                "link": "uhc"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "UHC.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "clock",
+            "id": "custom-timings",
+            "name": "Customisable timings",
+            "description": "Using scoreboards you can configure event timings to fit your liking."
+        },
+        {
+            "icon": "filter",
+            "id": "structured-game",
+            "name": "Structured game",
+            "description": "The game is structured into 3 segments; the starting, grace, and main period."
+        },
+        {
+            "icon": "users",
+            "id": "simple-teams",
+            "name": "Simple teams",
+            "description": "Easily assign players to 2-3 teams to give the game a competitive edge."
+        },
+        {
+            "icon": "minus-circle",
+            "id": "bossbar-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "Game updates are contained in a single bossbar for minimal interruptions."
+        },
+        {
+            "icon": "users",
+            "id": "simple-teams",
+            "name": "Simple teams",
+            "description": "Easily assign players to 2-3 teams to give the game a competitive edge."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak all parts of the datapack via the global scoreboard."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "QJv0bA3i0gM",
+            "src": "youtube",
+            "caption": "Featured video from my channel, 5v5"
+        },
+        {
+            "type": "video",
+            "link": "5HILNKwRwzs",
+            "src": "youtube",
+            "caption": "Featured video from my channel, 3v3v3"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Preview of the starter period"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "Deep in the caves, mining iron ore"
+        },
+        {
+            "type": "image",
+            "link": "gal5.png",
+            "caption": "Previewing Speed UHC"
+        },
+        {
+            "type": "image",
+            "link": "gal6.png",
+            "caption": "Game over screen when a team has won"
+        },
+        {
+            "type": "image",
+            "link": "gal7.png",
+            "caption": "Example preview of the Red team"
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "users",
+                "name": "Teams",
+                "code": "enable_teams",
+                "body": "Toggle between solos or teams.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "user",
+                "name": "Team count",
+                "code": "3v3v3",
+                "body": "Sets the team count to 3.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ],
+    "releases": [
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.0.4",
+            "name": "Version 1.0.4",
+            "published_at": "2021-02-21",
+            "assets": [
+                {
+                    "name": "plexionuhc21221BUILD2.zip",
+                    "browser_download_url": "/downloads/plexionuhc21221BUILD2.zip"
+                }
+            ],
+            "body": "This update is an optional side-branch to 1.0.3; updating is not necessary\n- There are now 3 teams, red, blue and green\n- The world border will now shrink considerably less\n- `naturalRegeneration` is now enabled throughout the game\n- The difficulty is now set to peaceful in pre-game then set to normal going forward\n- If a player gets a kill, they will be given a gapple as a reward\n- Apple spawn rates have been reduced\n- Team victories are now more specified in the code"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.0.3",
+            "name": "Version 1.0.3",
+            "published_at": "2021-02-17",
+            "assets": [
+                {
+                    "name": "plexionuhc17221.zip",
+                    "browser_download_url": "/downloads/plexionuhc17221.zip"
+                }
+            ],
+            "body": "This update enforces gamemode & effects onto all new players joining\n- Pre-game is now set as `period` -1\n- Victory splash screens are now set as `period` 3\n- Victory splash screens are now split into 3 functions, `solos_victory`, `red_victory` and `blue_victory`\n- Players now have a `lastlogin` scoreboard entry displaying the last period they were logged on for"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.0.2",
+            "name": "Version 1.0.2",
+            "published_at": "2021-02-15",
+            "assets": [
+                {
+                    "name": "uhc15221.zip",
+                    "browser_download_url": "/downloads/plexionuhc15221.zip"
+                }
+            ],
+            "body": "This update brings a crucial gamerule change & some teams additions:\n- `naturalRegeneration` is now enabled for the first 2 phases, but disabled for the rest of the game\n- Loot tables for apples mined from Oak Leaves have been boosted\n- Teams mode is now an option in the `global` scoreboard, listed as `enable_teams`\n- In teams mode, if the other team is fully eliminated the last remaining team will win\n- In solos mode, the last player standing will win the game"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.0.1",
+            "name": "Version 1.0.1",
+            "published_at": "2021-02-14",
+            "assets": [
+                {
+                    "name": "uhc14221.zip",
+                    "browser_download_url": "/downloads/plexionuhc14221.zip"
+                }
+            ],
+            "body": "This update brings along one addition with Cut Clean and a tweak to the border:\n- All animal food drops are instantly smelted\n- The world border will now close in to 50 blocks in the main game period"
+        },
+        {
+            "html_url": "",
+            "legacy": true,
+            "overwrite": false,
+            "tag_name": "1.0.0",
+            "name": "Version 1.0.0",
+            "published_at": "2021-02-14",
+            "assets": [
+                {
+                    "name": "uhc14221.zip",
+                    "browser_download_url": "/downloads/uhc14221.zip"
+                }
+            ],
+            "body": "Initial release."
+        }
+    ]
+}

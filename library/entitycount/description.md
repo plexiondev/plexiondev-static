@@ -1,0 +1,1 @@
+An entity counter for Minecraft 1.19, lists all currently loaded entities throughout your world (including all dimensions if the server allows it) in a scoreboard.

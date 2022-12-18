@@ -1,0 +1,64 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1003",
+    "prefix": "playtime",
+    "type": "datapack",
+    "info": {
+        "overview": {
+            "name": "Playtime Tracker",
+            "additional_steps": "Show scoreboards `playtime_x` with `s`, `m`, `h`, and `d` (seconds, minutes, hours, days)"
+        },
+        "main": [
+            {
+                "type": "version",
+                "value": "1.13-1.19"
+            },
+            {
+                "type": "released",
+                "value": "2022-04-10"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/playtime-tracker"
+            },
+            {
+                "type": "github",
+                "link": "playtime-tracker"
+            },
+            {
+                "type": "issues",
+                "link": "support@plexion.dev"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "playtime-tracker.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Shown on scoreboard"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Shown on actionbar"
+        }
+    ]
+}

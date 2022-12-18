@@ -1,0 +1,430 @@
+{
+    "name": "libraryv2",
+    "version": "2022.1026",
+    "prefix": "waterrising",
+    "type": "event",
+    "info": {
+        "overview": {
+            "name": "Water Rising",
+            "credit_notice": true,
+            "is_legacy": true
+        },
+        "main": [
+            {
+                "type": "teams",
+                "value": "Solos/2/3"
+            },
+            {
+                "type": "version",
+                "value": "1.13-1.17"
+            },
+            {
+                "type": "released",
+                "value": "2021-08-28"
+            }
+        ],
+        "links": [
+            {
+                "type": "pmc",
+                "link": "data-pack/water-rising"
+            },
+            {
+                "type": "github",
+                "link": "water-rising"
+            }
+        ],
+        "actions": [
+            {
+                "type": "download",
+                "link": "Water.Rising.zip"
+            }
+        ],
+        "creators": [
+            {
+                "type": "by",
+                "link": "https://github.com/plexiondev",
+                "name": "plexion",
+                "icon": "ed053e60-96bf-4ab8-b191-d9e61e1b673b?overlay",
+                "icon_type": "crafatar",
+                "priority": "main"
+            },
+            {
+                "type": "ideas_from",
+                "link": "https://www.youtube.com/channel/UCzutm6a6danbetSgj4bhI8w",
+                "name": "Equton",
+                "icon": "024ee461-b1c3-4103-885f-353a57d624b4?overlay",
+                "icon_type": "crafatar",
+                "hint": "Provided ideas for custom items and recipes bundled."
+            }
+        ]
+    },
+    "features": [
+        {
+            "icon": "arrow-up-circle",
+            "id": "water-pressure",
+            "name": "Water pressure",
+            "description": "Don't venture too far deep otherwise you'll face the pressure of the water on you, inflicting poison and eventually killing."
+        },
+        {
+            "icon": "flame",
+            "id": "cut-clean",
+            "name": "Cut Clean",
+            "description": "Automatically smelts ores and cooks food."
+        },
+        {
+            "icon": "swords",
+            "id": "speed-uhc",
+            "name": "Speed UHC",
+            "description": "Automatically enchants tools with efficiency."
+        },
+        {
+            "icon": "clock",
+            "id": "custom-timings",
+            "name": "Customisable timings",
+            "description": "Using scoreboards you can configure event timings to fit your liking."
+        },
+        {
+            "icon": "filter",
+            "id": "structured-game",
+            "name": "Structured game",
+            "description": "The game is structured into 3 segments; the starting, grace, and main period."
+        },
+        {
+            "icon": "users",
+            "id": "simple-teams",
+            "name": "Simple teams",
+            "description": "Easily assign players to 2-3 teams to give the game a competitive edge."
+        },
+        {
+            "icon": "chevrons-up",
+            "id": "height-limit",
+            "name": "Height limiting",
+            "description": "Limits the max height the water can reach to 250."
+        },
+        {
+            "icon": "minus-circle",
+            "id": "bossbar-gameplay",
+            "name": "Hidden for gameplay",
+            "description": "Game updates are contained in a single bossbar for minimal interruptions."
+        },
+        {
+            "icon": "trending-up",
+            "id": "no-lag",
+            "name": "Handled lag",
+            "description": "In an effort to improve performance, falling blocks are automatically killed."
+        },
+        {
+            "icon": "wrench",
+            "id": "config",
+            "name": "Fully configurable",
+            "description": "Tweak all parts of the datapack via the global scoreboard."
+        },
+        {
+            "icon": "check-circle-2",
+            "id": "setup-flow",
+            "name": "Simplified setup",
+            "description": "Gameplay can be customised using the setup that appears on first-run."
+        }
+    ],
+    "gallery": [
+        {
+            "type": "video",
+            "link": "RHS6k8Ccjh0",
+            "src": "youtube",
+            "caption": "Featured video from my channel"
+        },
+        {
+            "type": "image",
+            "link": "cover-big.png",
+            "caption": "Cover art"
+        },
+        {
+            "type": "image",
+            "link": "gal0.png",
+            "caption": "Gathering resources to prepare"
+        },
+        {
+            "type": "image",
+            "link": "gal1.png",
+            "caption": "Showcasing Cut Clean"
+        },
+        {
+            "type": "image",
+            "link": "gal2.png",
+            "caption": "Showcasing custom-crafting (eg. Trident)"
+        },
+        {
+            "type": "image",
+            "link": "gal3.png",
+            "caption": "The water beginning to rise"
+        },
+        {
+            "type": "image",
+            "link": "gal4.png",
+            "caption": "Showcasing auto-enchantments with Riptide"
+        },
+        {
+            "type": "image",
+            "link": "gal5.png",
+            "caption": "The water flooding the world"
+        }
+    ],
+    "spotlight": [
+        {
+            "type": "video",
+            "link": "Tbnj0BiPizk",
+            "src": "youtube",
+            "details": {
+                "name": "OnceWasJosh",
+                "date": "2022-03-05"
+            }
+        },
+        {
+            "type": "video",
+            "link": "LkPyKsQ32ZQ",
+            "src": "youtube",
+            "details": {
+                "name": "Full Fat Milk",
+                "date": "2022-06-09"
+            }
+        }
+    ],
+    "recipes": [
+        {
+            "result": "prismarine_shard",
+            "name": "Prismarine Shard",
+            "description": "Used to craft all custom items.",
+            "recipe": [
+                { "item": "" },
+                { "item": "iron_ingot" },
+                { "item": "" },
+                { "item": "iron_ingot" },
+                { "item": "wheat_seeds" },
+                { "item": "iron_ingot" },
+                { "item": "" },
+                { "item": "iron_ingot" },
+                { "item": "" }
+            ]
+        },
+        {
+            "result": "trident",
+            "name": "Trident",
+            "description": "Riptide into your enemies with style.",
+            "recipe": [
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "" },
+                { "item": "stick" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "stick" },
+                { "item": "" }
+            ]
+        },
+        {
+            "result": "dolphin_spawn_egg",
+            "name": "Dolphin Spawn Egg",
+            "description": "Gain the advantage with Dolphin's Grace during battle.",
+            "recipe": [
+                { "item": "tropical_fish" },
+                { "item": "prismarine_shard" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" },
+                { "item": "" }
+            ]
+        },
+        {
+            "result": "suspicious_stew",
+            "name": "Ocean Stew",
+            "description": "Instantly gain Dolphin's Grace, Conduit Power, Strength, Regeneration, and Instant Health.",
+            "recipe": [
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "prismarine_shard" },
+                { "item": "diamond" },
+                { "item": "water_bucket" },
+                { "item": "diamond" }
+            ]
+        },
+        {
+            "result": "glow_ink_sac",
+            "name": "Squid Ink",
+            "description": "Blind any nearby opponents when dropped.",
+            "recipe": [
+                { "item": "" },
+                { "item": "prismarine_shard" },
+                { "item": "" },
+                { "item": "prismarine_shard" },
+                { "item": "ink_sac" },
+                { "item": "prismarine_shard" },
+                { "item": "" },
+                { "item": "prismarine_shard" },
+                { "item": "" }
+            ]
+        },
+        {
+            "result": "nautilus_shell",
+            "name": "Nautilus Shell",
+            "description": "Gain both Resistance and Weakness for some quick healing.",
+            "recipe": [
+                { "item": "iron_ingot" },
+                { "item": "prismarine_shard" },
+                { "item": "iron_ingot" },
+                { "item": "prismarine_shard" },
+                { "item": "gold_block" },
+                { "item": "prismarine_shard" },
+                { "item": "iron_ingot" },
+                { "item": "prismarine_shard" },
+                { "item": "iron_ingot" }
+            ]
+        }
+    ],
+    "customising": [
+        [
+            {
+                "type": "icon"
+            },
+            {
+                "type": "name"
+            },
+            {
+                "type": "code"
+            },
+            {
+                "type": "body"
+            },
+            {
+                "type": "values"
+            }
+        ],
+        [
+            {
+                "icon": "arrow-up-circle",
+                "name": "Water pressure",
+                "code": "water_pressure",
+                "body": "Specifies if pressure will kill you when too deep in the water.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "battery-charging",
+                "name": "Cut Clean",
+                "code": "cut_clean",
+                "body": "Auto-smelts all food and ore drops.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "fast-forward",
+                "name": "Speed UHC",
+                "code": "speed_uhc",
+                "body": "Enchants all tools with efficiency and weapons with sharpness.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "users",
+                "name": "Teams",
+                "code": "enable_teams",
+                "body": "Toggle between solos or teams.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "user",
+                "name": "Team count",
+                "code": "3v3v3",
+                "body": "Sets the team count to 3.",
+                "values": [
+                    {
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "default": true,
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "volume-2",
+                "name": "Sound effects",
+                "code": "sound_effects",
+                "body": "Plays sound effects upon rising.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "icon": "chevrons-up",
+                "name": "Height limit",
+                "code": "height_limit",
+                "body": "Limits the riser height to 245.",
+                "values": [
+                    {
+                        "default": true,
+                        "state": "on",
+                        "value": "1"
+                    },
+                    {
+                        "state": "off",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    ]
+}
